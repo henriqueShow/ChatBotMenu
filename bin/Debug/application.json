@@ -1,0 +1,15 @@
+﻿{
+  "identifier": "bottest",
+  "accessKey": "NHk3U0w5NFVSbGhEY1B5a0lMaGU=",
+  "messageReceivers": [
+    {
+      "type": "PlainTextMessageReceiver",
+      "mediaType": "text/plain"
+    }
+  ],
+  "settings": {
+    "setting1": "value1"
+  },
+  "startupType": "Startup",
+  "schemaVersion": 2
+}

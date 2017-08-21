@@ -1,0 +1,41 @@
+﻿{
+  "identifier": "bottest",
+  "accessKey": "NHk3U0w5NFVSbGhEY1B5a0lMaGU=",
+  "messageReceivers": [
+    {
+      "mediaType": "text/plain",
+      "content": "^(inicio|iniciar|começar|ajuda)$",
+      "response": {
+        "mediaType": "application/vnd.lime.select+json",
+        "jsonContent": {
+          "text": "Olá, seja bem-vindo ao serviço de ajuda do Messaging Hub. Escolha o que você deseja receber:",
+          "options": [
+            {
+              "order": 1,
+              "text": "Um TEXTO",
+              "type": "text/plain",
+              "value": "texto"
+            },
+            {
+              "order": 2,
+              "text": "Uma IMAGEM",
+              "type": "text/plain",
+              "value": "imagem"
+            },
+            {
+              "order": 3,
+              "text": "A DATA atual",
+              "type": "text/plain",
+              "value": "data"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "settings": {
+    "setting1": "value1"
+  },
+  "startupType": "Startup",
+  "schemaVersion": 2
+}
